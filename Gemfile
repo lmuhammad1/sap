@@ -10,9 +10,6 @@ group :development, :test do
   gem "rails-erd"
 end
 
-group :production do
-  gem 'pg'
-end
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -43,3 +40,6 @@ gem 'capistrano'
 # To use debugger
 # gem 'debugger'
 
+group :production do
+  gem 'pg'
+end
